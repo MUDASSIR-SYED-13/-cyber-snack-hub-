@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberSnack Hub | Menu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="menu-body">
+  <header>
+    <h1>CyberSnack Hub</h1>
+    <p>Where Technology Meets Taste ⚙️</p>
+  </header>
+
+  <section id="menu" class="menu-grid">
+    <!-- 🥪 Breakfast & Light Bites -->
+    <div class="item"><img src="https://images.unsplash.com/photo-1516685018646-549d13ec7a2b" alt="Veg Sandwich"><h3>Veg Sandwich</h3><p>₹90</p><button onclick="addToBill('Veg Sandwich',90)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1604908177522-04083c2fe5b2" alt="Grilled Cheese Sandwich"><h3>Grilled Cheese Sandwich</h3><p>₹110</p><button onclick="addToBill('Grilled Cheese Sandwich',110)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1603052875784-29a7a5e6c7e7" alt="Paneer Roll"><h3>Paneer Roll</h3><p>₹120</p><button onclick="addToBill('Paneer Roll',120)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1590080875839-91f8a83d3470" alt="Chicken Roll"><h3>Chicken Roll</h3><p>₹140</p><button onclick="addToBill('Chicken Roll',140)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1572441710534-680c2ce98466" alt="Masala Dosa"><h3>Masala Dosa</h3><p>₹130</p><button onclick="addToBill('Masala Dosa',130)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1600628422019-abb855c2f5c4" alt="Idli Sambar"><h3>Idli Sambar</h3><p>₹100</p><button onclick="addToBill('Idli Sambar',100)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1617196036514-7d34c5d84a4b" alt="Poha"><h3>Poha</h3><p>₹80</p><button onclick="addToBill('Poha',80)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1621870298823-4edc8f5d9f9f" alt="Pancakes"><h3>Pancakes</h3><p>₹150</p><button onclick="addToBill('Pancakes',150)">Add</button></div>
+
+    <!-- 🍔 Burgers & Fast Food -->
+    <div class="item"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Veg Burger"><h3>Veg Burger</h3><p>₹120</p><button onclick="addToBill('Veg Burger',120)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1606755962773-3f6f3d293c07" alt="Chicken Burger"><h3>Chicken Burger</h3><p>₹150</p><button onclick="addToBill('Chicken Burger',150)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90" alt="French Fries"><h3>French Fries</h3><p>₹100</p><button onclick="addToBill('French Fries',100)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1565958011705-44e211f05a84" alt="Cheese Loaded Fries"><h3>Cheese Loaded Fries</h3><p>₹130</p><button onclick="addToBill('Cheese Loaded Fries',130)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" alt="Veg Pizza"><h3>Veg Pizza</h3><p>₹240</p><button onclick="addToBill('Veg Pizza',240)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1601924577879-4b8a92a5aab9" alt="Margherita Pizza"><h3>Margherita Pizza</h3><p>₹250</p><button onclick="addToBill('Margherita Pizza',250)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1565958011705-44e211f05a84" alt="Pepperoni Pizza"><h3>Pepperoni Pizza</h3><p>₹270</p><button onclick="addToBill('Pepperoni Pizza',270)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1601050690597-3b67a85a8e47" alt="Garlic Bread"><h3>Garlic Bread</h3><p>₹90</p><button onclick="addToBill('Garlic Bread',90)">Add</button></div>
+
+    <!-- 🍝 Main Course -->
+    <div class="item"><img src="https://images.unsplash.com/photo-1603133872878-684f9f2e28b4" alt="Veg Fried Rice"><h3>Veg Fried Rice</h3><p>₹180</p><button onclick="addToBill('Veg Fried Rice',180)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1598514982671-1a7d43f79a5a" alt="Chicken Fried Rice"><h3>Chicken Fried Rice</h3><p>₹200</p><button onclick="addToBill('Chicken Fried Rice',200)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1589308078059-153bd6b1b3b1" alt="Hakka Noodles"><h3>Hakka Noodles</h3><p>₹180</p><button onclick="addToBill('Hakka Noodles',180)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1604908553387-763ab24d9f8f" alt="Manchurian"><h3>Veg Manchurian</h3><p>₹190</p><button onclick="addToBill('Veg Manchurian',190)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1617196036514-7d34c5d84a4b" alt="Paneer Butter Masala"><h3>Paneer Butter Masala</h3><p>₹210</p><button onclick="addToBill('Paneer Butter Masala',210)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1633436374387-4f764b10a908" alt="Butter Chicken"><h3>Butter Chicken</h3><p>₹240</p><button onclick="addToBill('Butter Chicken',240)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1608039829576-7f6e65f26d3b" alt="Dal Makhani"><h3>Dal Makhani</h3><p>₹190</p><button onclick="addToBill('Dal Makhani',190)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0" alt="Roti / Naan"><h3>Roti / Butter Naan</h3><p>₹30</p><button onclick="addToBill('Roti / Naan',30)">Add</button></div>
+
+    <!-- 🍰 Desserts -->
+    <div class="item"><img src="https://images.unsplash.com/photo-1599785209707-28beed5f1dfd" alt="Chocolate Cake"><h3>Chocolate Cake</h3><p>₹150</p><button onclick="addToBill('Chocolate Cake',150)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1565958011705-44e211f05a84" alt="Brownie"><h3>Brownie</h3><p>₹120</p><button onclick="addToBill('Brownie',120)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Cupcake"><h3>Cupcake</h3><p>₹90</p><button onclick="addToBill('Cupcake',90)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1606813909355-7d4d2f98420a" alt="Ice Cream"><h3>Ice Cream</h3><p>₹80</p><button onclick="addToBill('Ice Cream',80)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1621351183012-d5e864d7c1e1" alt="Waffles"><h3>Waffles</h3><p>₹130</p><button onclick="addToBill('Waffles',130)">Add</button></div>
+
+    <!-- ☕ Beverages -->
+    <div class="item"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Cold Coffee"><h3>Cold Coffee</h3><p>₹110</p><button onclick="addToBill('Cold Coffee',110)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1551024709-8f23befc6cf7" alt="Cappuccino"><h3>Cappuccino</h3><p>₹120</p><button onclick="addToBill('Cappuccino',120)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1587731614901-c8a8a5d1a0d1" alt="Espresso"><h3>Espresso</h3><p>₹100</p><button onclick="addToBill('Espresso',100)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1590080876275-4c11b52a5e67" alt="Hot Chocolate"><h3>Hot Chocolate</h3><p>₹130</p><button onclick="addToBill('Hot Chocolate',130)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1524593869383-6f6c8f6a604b" alt="Milkshake"><h3>Milkshake</h3><p>₹140</p><button onclick="addToBill('Milkshake',140)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1617196036514-7d34c5d84a4b" alt="Smoothie"><h3>Smoothie</h3><p>₹160</p><button onclick="addToBill('Smoothie',160)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1551024601-bec78aea704b" alt="Green Tea"><h3>Green Tea</h3><p>₹90</p><button onclick="addToBill('Green Tea',90)">Add</button></div>
+    <div class="item"><img src="https://images.unsplash.com/photo-1572373694344-00719e3bb96b" alt="Soft Drink"><h3>Soft Drink</h3><p>₹70</p><button onclick="addToBill('Soft Drink',70)">Add</button></div>
+  </section>
+
+  <section class="bill">
+    <h2>Your Bill</h2>
+    <ul id="billItems"></ul>
+    <p id="total">Total: ₹0</p>
+    <a href="payment.html" class="pay-btn">Proceed to Payment</a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
